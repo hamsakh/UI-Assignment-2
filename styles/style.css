@@ -100,7 +100,7 @@ top:15px;
 .category-content {
  /*width: 100%;*/
  height: 100%;
- margin-top: 100px;
+ margin-top: 50px;
  width: 1163px;
 
 }
@@ -109,7 +109,6 @@ text-align: center;
 text-transform: uppercase;
 /*background-color: red;*/
 height: 100%;
-margin-top: 10px;
 font-size: 36px;
 font-weight: 100;
 color: #303030;
@@ -120,7 +119,8 @@ text-align: center;
 font-style: italic;
 font-weight: 100;
 font-size: 18px;
-margin-top: 30px;
+margin-top: -10px;
+color: #606060;
 }
 
 .category-content a{
@@ -129,7 +129,141 @@ color: #606060;
 margin: 0 auto;
 margin-top: 30px;
 }
+.category-details 
+{}
 
+.category-details table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 100px;
+    color: #606060;
+}
+
+.table-header 
+{
+text-transform: uppercase;
+color: #e5e5e5;
+}
+
+.category-details tr{
+border-bottom:1px solid #e5e5e5;
+
+}
+
+.category-details td{
+	padding: 20px;
+
+}
+.category-details p{
+	font-size: 15px;
+	text-transform: none;
+	color: #e5e5e5;
+}
+.description-transform {
+	text-transform: uppercase;
+	width: 500px;
+}
+
+input[type = image]{
+	width:25px;
+	height:25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.sub-total{
+	background-color: #f7f8f7;
+	line-height: 30px;
+	margin-top: 5px;
+	padding-left: 880px;
+	
+}
+.sub-total h5 {
+	display: inline-block;
+	font-size: 16px;	
+}
+
+#total-color{
+	color:#606060;
+}
+#price-color{
+	color:#f68236;
+	padding-left: 20px;
+}
+
+.splitter{
+	line-height: 100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.splitter img{
+	line-height: 200px;
+	margin: 0 auto;
+	width: 123px;
+	height: 40px;
+	position: center;
+
+}
+
+.shipping-field {
+	height: 100%;
+	border: 1px solid #e5e5e5;
+	margin-top: 30px;
+}
+
+.payment-options {
+	height: 100%;
+	border: 1px solid #e5e5e5;
+	margin-top: 30px;
+}
+
+.price-info{
+	margin-top: 70px;
+}
+.price-info h4{
+	text-align: center;
+	color: #606060;
+	font-weight:100;
+}
+#total-price{
+color:#f68236;
+}
+
+form{
+	text-align: center;
+}
+.payment-method{
+	margin-top: 100px;
+	padding-bottom: 80px;
+}
+.payment-method p{
+	margin: 0 auto;
+	text-align: center;
+	color: #606060;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin-left: -300px;
+}
+.payment-method input[type = text]{
+	width: 479px;
+	height: 30px;
+	margin-left: 364px;
+	color: #606060;
+	font-size: 10px;
+}
+
+.payment-method input[type = submit]{
+	height: 40px;
+	width: 185px;
+	background-color: #f68236;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	margin-left: 500px;
+	margin-top: 20px;
+}
 .items li {
 list-style: none;
 display: inline-block;
