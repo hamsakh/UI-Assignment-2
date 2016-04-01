@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Your Shopping Bag</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+
+  <body>
+  <div class="nav-wrapper">
+        <nav class="container">
+          <h1><a href="#" title="Home Page"><img src="images\sh.png" alt="SH"></a></h1>
+            <div class ="side-one">
+              <ul>
+                <li><a href="#">Woman</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Coming Soon</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </div> 
+
+            <div class ="side-two">
+              <ul>
+                <li><a href="#"><img class="header-side-img" src="images\login.png" alt="Login"></a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#"><img class="header-side-img" src="images\basket.png" alt="Shopping-Bag"></a></li>
+                <li><a href="#">Basket(0)</a></li>
+                <li><a href="#"><img class="header-image" src="images\search.png" alt="Search"></a></li>
+              </ul>
+            </div>  
+        </nav>
+      </div>
+
+      <div class="content">
+        <div class="category-content">
+          <h1>your shopping bag</h1>
+          <h3>items reserved for limited time only</h3>
+        </div>
+
+        <div class="category-details">
+          <table>
+            <tr class="table-header">  
+              <td>product</td> 
+              <td>description</td>
+              <td>color</td>
+              <td>size</td>
+              <td>qty</td>
+              <td>amount</td>
+              <td>delete</td>
+            </tr>
+
+            <tr>  
+              <td><img src="images\itemimage.png"></td> 
+              <td class="description-transform">floral plimsoll<p>Ref.2514/302</p></td>
+              <td>One Color</td>
+              <td>39</td>
+              <td>1
+              </td>
+              <td>&euro;99,95</td>
+              <!--<td><button><img src="images\delete.png"></button></td>-->
+              <td><input type="image" src="images\delete.png"/></td>
+            </tr>
+            <tr>  
+              <td><img src="images\itemimage.png"></td> 
+              <td class="description-transform">coated 5 pocket trousers<p>Ref.8246/044</p></td>
+              <td>One Color</td>
+              <td>M</td>
+              <td>1</td>
+              <td>&euro;169.00</td>
+              <td><input type="image" src="images\delete.png"/></td>
+            </tr>
+            <tr>  
+              <td><img src="images\itemimage.png"></td> 
+              <td class="description-transform">oversized studio blouse<p>Ref.2401/657</p></td>
+              <td>Black</td>
+              <td>S</td>
+              <td>2</td>
+              <td>&euro;299.00</td>
+              <td><input type="image" src="images\delete.png"/></td>
+            </tr>
+
+          </table>
+        </div>
+
+        <div class="sub-total">
+          <h5 id="total-color">Subtotal:</h5>
+          <h5 id="price-color">&euro;567,95</h5>
+        </div>
+
+
+        <div class ="splitter">
+          <img src="images\splitter.png">
+        </div>
+
+        <div class="shipping-field">
+          <div class="category-content">
+            <h1>shipping address</h2>
+            <h3>All fields are required</h6>
+          </div>
+
+          <form>
+            <p>select delivery method</p>
+            <select>
+            <option>DHL International-&euro; 15.00</option>
+            <option>UPS International-&euro; 10.00</option>
+            </select>
+            First name: <input type="text" name="FirstName" ><br>
+            Last name: <input type="text" name="LastName"><br>
+           
+          </div>
+
+          <div class ="splitter">
+            <img src="images\splitter.png">
+          </div>
+
+          <div class="payment-options">
+            <div class="category-content">
+              <h1>payment options</h2>
+              <h3>All fields are required</h6>
+            </div>
+
+            <div class="price-info">
+              <h4>Sub total:&euro;567,95</h4>
+              <h4>Shipping:&euro;15.00</h4>
+              <h4 id ="total-price">Total:&euro;582,95</h4>
+            </div>
+
+            <div  class="payment-method">
+            <p>Select Payment Method</p> 
+            <input type="text" name="paymentmethod" value="Credit Card"></br>
+            <input type="submit" value="order now">
+            </div>
+          </form>
+
+          </div>
+
+    <div class="wrapper">
+       <div class = "footer">
+          <div class="footerFloat">
+            <h3><a href="#">collection</a></h3>
+              <ul>
+                <li><a href="#">Woman (1725)</a></li>
+                <li><a href="#">Men (635)</a></li>
+                <li><a href="#">Kids (2514)</a></li>
+                <li><a href="#">Coming soon(76)</a></li>
+              </ul>
+          </div>
+          <div class="footerFloat">
+            <h3><a href="#">site</a></h3>
+              <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Copyright Policy</a></li>
+                <li><a href="#">Press Kit</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+          </div>
+
+          <div class="footerFloat">
+            <h3><a href="#">shop</a></h3>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Shopping Methods</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="footerFloat">
+            <div class ="Lastside">
+              <h3><a href="#">social</a></h3>
+                <ul>
+                  <li><a href="#">Shoper is made with love in Warsaw, 
+                  2014 &copy; All rights reserved. El Passion</a></li>
+                </ul>
+             </div>
+          </div> 
+       </div>
+
+      </div>
+  </body>
+</html>
